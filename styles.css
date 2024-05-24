@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 12vh;
+
+    h1 {
+        height: 12vh;
+        display: flex;
+        align-items: center;
+    }
+
+    ul {
+        display: flex;
+        margin-left: 7rem;
+    }
+
+    li {
+        justify-content: center;
+        list-style: none;
+        height: 7vh;
+        display: flex;
+        align-items: center;
+
+        a {
+            text-decoration: none;
+            margin: 0px 20px 0px 30px;
+            padding: 0px 8px;
+            font-size: 1.32rem;
+            color: black;
+
+            &:hover {
+                color: red;
+                transition: all 0.5s ease 0s;
+                background-color: black;
+                border-radius: 5px;
+            }
+        }
+    }
+}
+
+section {
+    height: 70vh;
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    background-color: #040004;
+
+    div {
+        margin-top: 3rem;
+        margin-left: 11rem;
+
+        h2 {
+            font-size: xxx-large;
+            color: white;
+
+            span {
+                text-decoration: overline;
+            }
+        }
+
+        p {
+            color: white;
+            margin-top: 1.5rem;
+            margin-bottom: 1.5rem;
+            font-size: 1.32rem;
+        }
+
+        button {
+            border: 1px solid white;
+            height: 6vh;
+            width: 24%;
+            font-size: 1.25rem;
+            font-weight: 600;
+            border-radius: 4px;
+            background-color: #040004;
+            color: white;
+            border-top-width: 3px;
+            cursor: pointer;
+
+            &:hover {
+                color: red;
+                transition: all 0.5s ease 0s;
+                background-color: black;
+                border-radius: 5px;
+            }
+        }
+    }
+
+    .pics {
+        img {
+            width: 103%;
+            height: 83vh;
+        }
+    }
+}
